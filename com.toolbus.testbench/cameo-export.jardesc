@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="MagicDraw/MAGIC_DRAW_INSTALL_DIRECTORY/plugins/com.toolbus/com.toolbus.testbench.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/com.toolbus.testbench/cameo-export.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/com.toolbus.testbench/.DS_Store"/>
+        <folder path="/com.toolbus.testbench/lib-other"/>
+        <file path="/com.toolbus.testbench/_DBPopulateApp.launch"/>
+        <folder path="/com.toolbus.testbench/test-models"/>
+        <file path="/com.toolbus.testbench/_ModelCreateApp.launch"/>
+        <javaElement handleIdentifier="=com.toolbus.testbench/src"/>
+        <file path="/com.toolbus.testbench/_ModelDumpApp.launch"/>
+        <file path="/com.toolbus.testbench/.classpath"/>
+        <file path="/com.toolbus.testbench/_TestCreatorApp.launch"/>
+        <file path="/com.toolbus.testbench/.project"/>
+    </selectedElements>
+</jardesc>

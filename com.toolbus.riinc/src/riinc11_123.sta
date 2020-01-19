@@ -1,0 +1,96 @@
+RIINC11_123.sta   java class for import Innovator 12.3, InoX models
+                  ===================================================
+
+ 13.07.2016  fehlt: 503Z --> 482 (Datenspeicher)
+                    503F --> 481 (Fluss) geht in Lauf-9 nicht --> insUMLComment --> Lauf-10
+                    503b --> 474 (in Zustandsdiagramm)
+                    503f --> 495 (Transition)
+
+---------------------------------------------------------------------------------
+
+V2.06  MS       (INX-MDR, HHLA)
+14.11.2018      - Erweiterungen, Korrekturen Aktivity-Diagramme (swimlane, activity partition, colors)
+
+V2.05  MS       (ADO-INX, BIT)
+24.10.2018      - Erweiterte Fehlermeldungen BPMN-Konnektoren
+
+V2.04  MS       (ADO-INX, BIT)
+19.10.2018      - BPMN: Konzept-Diagrammm (Risiko-Kontrollmaßnahmen)
+
+V2.03  MS       (ADO-INX, BIT)
+17.10.2018      - BPMN: 503a, Notizzuordnungen
+
+V2.02  MS       (ADO-INX, BIT)
+08.10.2018      - BPMN: collaborations
+                  (busrun13 with completeBPMNDiagram() to insert Dependency connectors not used)
+
+V2.01  MS       (MDR-INX, HHLA)
+11.09.2018      - UML, ACD, SQD: 475S, State Action als Besitzer von Aktivität
+
+V1.99  MS       (ADO-INX, BIT)
+05.09.2018      - BPMN: Kollaborationen, Nachrichtenflüsse, unvollständig
+
+
+V1.98  MS       (MDR-INX, HHLA)
+29.06.2018      - UML, ACD: Test Pin-Positionierung für Kantenführung
+
+
+V1.97  MS       (MDR-INX, HHLA)
+05.06.2018      - 482A = actor as type of centralDataBuffer
+
+V1.96  MS       (MDR-INX, HHLA)
+29.03.2018      - 496-TYPE = "ACTIVITY": Activity as do / entry / exit action
+                                          (instead of opaque Behavior)
+
+V1.95  MS       (AR3-INX, BPMN, DATEV)
+12.02.2018      - error fixed in insDataStore, insDataObject, insDataInput, insDataOutput:
+                  setDataObjectType(...);
+
+V1.94  MS       (INX-MDR, HHLA)
+25.01.2018      - insUMLComment with NOTETYPE = "FRAME", with COLOR
+                - BusRun_497, 497W, signal in activity
+                - default stereotype <<sendSignalAction>>, <<acceptEventAction>>
+
+V1.93  MS       (INX-MDR, Voegele)
+06.09.2017      - insCombinedFragment(...) in sequence diagram:
+                  433 statements (= operators and operands)
+
+V1.92  MS       (INX-MDR, HHLA)
+02.08.2017      - logOpenHierarchy (now only for activities)
+                - CallAction witout called activity --> Generic Action
+08.08.2017      - checkMultipleCldNode(...), warning #365
+                - positions of comments in statemachine
+
+V1.91  MS       (ERX-INX, Boehringer)
+11.07.2017      - message #28 for unknown model stereotype
+
+V1.90  MS       (INX-POD, Voegele)
+30.05.2017      - FlowDocument import changed
+30.05.2017      - extensions for sequence diagrams
+06.07.2017      - errors fixed: setting specification text ("Beschreibung")
+                - errors fixed: setting label values with internal label names
+                                (no language dependency)
+
+V1.89  MS       (INX-POD, KZVK)
+31.01.2017      - corrections ER models: sequence of attributes
+01.02.2017      - extensions ER models: FK Attributes without parent attribute in key
+                                        automatic generated FK attributes removed if not in TOOLBUS
+
+V1.88  MS       (INX-MDR, Voegele)
+   12.2016      - extensions, corrections, class diagrams
+
+V1.87  MS       (INX-MDR, HHL)
+14.09.2016      - extensions, corrections, statemachine diagrams
+
+V1.86  MS       (INX-MDR, HHL)
+16.09.2016      - error fixed: importPackage
+
+V1.85  MS       (INX-POD)
+16.08.2016      - extensions, corrections, RDM input
+
+V1.84  MS       (INX-ROS)
+27.06.2016      - extensions, corrections, ACD, STD
+
+V1.83  MS       (INX-ROS)
+25.05.2016      - migrated from Innovator 11_121 Version 1.83
+

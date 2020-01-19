@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+        id="com.toolbus.magicdraw.plugin.Plugin"
+        name="TOOLBUS Importer"
+        version="1.0"
+        provider-name="MID GmbH"
+        class="com.toolbus.magicdraw.plugin.Plugin">
+
+    <requires>
+        <api version="1.0"/>
+    </requires>
+
+    <runtime>
+        <library name="com.toolbus.magicdraw.jar"/>
+    </runtime>
+</plugin>
